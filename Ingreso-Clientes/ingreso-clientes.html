@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ingreso Clientes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="../Resources/libraries/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="estilo.css"/>
+</head>
+<body> 
+    <div class="flex-container">
+        <form class="form">
+            <div class="form-section">
+                <h1>INGRESO DE CLIENTES</h1>
+            </div>
+            <div class="form-section">
+                <input id="nombre" autocomplete="off" type="text" class="form__input" placeholder="Escribe tu Nombre" required>
+            </div>
+            <div class="form-section">
+                <input id="apellido" autocomplete="off" type="text" class="form__input" placeholder="Escribe tu Apellido">
+            </div>
+            <div class="form-section">
+                <input id="cui" autocomplete="off" type="number" class="form__input" placeholder="Escribe tu CUI">
+            </div>
+            <div class="form-section">
+                <input id="departamento" autocomplete="off" type="text" class="form__input" placeholder="Escribe tu Departamento">
+            </div>
+            <div class="form-section">
+                <input id="boton-registro" type="button" class="form__input" value="Registrar Nuevo Cliente">
+            </div>
+        </form>
+        <div class="form-img">
+            <div class="img-container">
+                <div>
+                    <img src="../Resources/silueta.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Resources/libraries/bootstrap/js/jquery.js"></script>
+    <script src="../Resources/libraries/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../Resources/libraries/sweetalert/package/dist/sweetalert2.all.min.js" type="text/javascript"></script>
+    <script src="codigo.js"></script> 
+</body>
+</html>
